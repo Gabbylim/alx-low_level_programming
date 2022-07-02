@@ -8,6 +8,7 @@
 
 int main(void)
 {
+
 char char_type;
 int int_type;
 long int long_int;
