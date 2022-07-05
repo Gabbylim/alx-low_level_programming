@@ -1,9 +1,9 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character to stdout
+ * main - 'writes the character to stdout'
  *
- * Description: a created putchar
+ * Description: 'a created putcha'
  *
  * Return: returns 1 on success and -1 on failure
  */
