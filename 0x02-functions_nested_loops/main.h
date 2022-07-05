@@ -1,14 +1,6 @@
-#include <unistd.h>
+#ifndef MAIN
+#define MAIN
 
-/**
- * main - 'writes the character to stdout'
- *
- * Description: 'a created putcha'
- *
- * Return: returns 1 on success and -1 on failure
- */
+#include "_putchar.c"
 
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
+#endif
