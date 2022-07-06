@@ -8,9 +8,8 @@
 int main(void)
 {
 int r;
-r = _isalpha('H');
-_putchar(r + '0');
-r = _isalpha('o');
+r = print_sign(98);
+_putchar(',');
 _putchar(r + '0');
 return (0);
 }
