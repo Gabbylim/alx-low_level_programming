@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctype.h>
 
 /**
  * main - checking code
@@ -11,9 +8,9 @@
 int main(void)
 {
 int r;
-r = _islower('H');
+r = _isalpha('H');
 _putchar(r + '0');
-r = _islower('o');
+r = _isalpha('o');
 _putchar(r + '0');
 return (0);
 }
