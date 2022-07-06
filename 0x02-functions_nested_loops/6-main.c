@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - checking code
@@ -8,8 +9,7 @@
 int main(void)
 {
 int r;
-r = print_sign(1);
-_putchar(',');
-_putchar(r + '0');
+r = _abs(-1);
+printf("%d\n",r);
 return (0);
 }
