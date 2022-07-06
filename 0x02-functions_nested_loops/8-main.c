@@ -8,8 +8,6 @@
  */
 int main(void)
 {
-int r;
-r = print_last_digit(-1024);
-_putchar('0' + r);
+jack_bauer();
 return (0);
 }
