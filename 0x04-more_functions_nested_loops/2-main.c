@@ -8,10 +8,6 @@
 
 int main(void)
 {
-char c;
-
-c = '5';
-
-printf("%c: %d\n",c,_isdigit(c));
+printf("%d\n", mul(98, 1024));
 return (0);
 }
