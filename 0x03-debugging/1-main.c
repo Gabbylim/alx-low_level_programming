@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - causes an infinite loop
@@ -7,18 +8,13 @@
 
 int main(void)
 {
+int a,b,c;
+int largest;
 
-int i;
+a = 972;
+b = -98;
+c = 0;
+largest = largest_number(a,b,c);
+printf("%d is the largest number\n",largest);
 
-printf("Infinite loop incoming :(\n");
-
-i = 0;
-/**
- * while (i < 10)
- * {
- * putchar(i);
- * }
- */
-
-printf("Infinite loop avoided! \\o/\n");
 return (0); }
