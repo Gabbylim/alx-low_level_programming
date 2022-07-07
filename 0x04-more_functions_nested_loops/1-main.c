@@ -10,8 +10,8 @@ int main(void)
 {
 char c;
 
-c = 'a';
+c = '5';
 
-printf("%c: %d\n",c,_isupper(c));
+printf("%c: %d\n",c,_isdigit(c));
 return (0);
 }
