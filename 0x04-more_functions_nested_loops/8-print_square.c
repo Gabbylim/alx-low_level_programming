@@ -11,7 +11,7 @@ x = 0;
 
 if (size < 1)
 {
-y = 0;
+_putchar('\n');
 }
 
 while (x < size)
