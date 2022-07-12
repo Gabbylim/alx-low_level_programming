@@ -5,7 +5,7 @@ int main(void)
 {
 char *str;
 
- str = "";
+ str = "eeyuncrm";
  puts_half(str);
  return (0);
 }

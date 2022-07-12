@@ -26,7 +26,7 @@ if (y >= n / 2)
 _putchar(str[y]);
 }
 }
-_putchar('\n');
+
 }
 else if (x % 2 != 0)
 {
@@ -38,7 +38,7 @@ if (y > ((n - 1) / 2))
 _putchar(str[y]);
 }
 }
-_putchar('\n');
+
 }
 else
 {
