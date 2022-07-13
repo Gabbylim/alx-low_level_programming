@@ -3,24 +3,21 @@
 int main(void)
 {
 	char s1[98] = "hellothere";
-	char s2[] = "sure";
-	int i, c,n;
-	c = 0;
-	n = 2;
+	char s2[] = "sureghkg,fgfhgjkhgf";
+	int i,j;
+	int result;
 
-	for (i = 0;s1[i] !='\0';i++)
+	for (i = 0;s1[i] != '\0'; i++)
 	{
 		;
 	}
-    n = i;
-	for (c = 0;c < n && s2[c] != '\0';c++)
-	 {
-	 	 i++;
-		 s1[i] = s2[c];
-		
+	for (j = 0; s2[j] != '\0'; j++)
+	{
+		;
 	}
-    printf("%s\n",s1);
+	result = (i - j);
+	printf("%d",result);
 	
-
+  
 	
 }
