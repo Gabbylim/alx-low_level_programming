@@ -1,28 +1,26 @@
 #include <stdio.h>
 
-char *_strcat(char *dest,char *src)
-{
-	int i,c;
-
-	for (i = 0; dest[i] != '\0';i++)
-	{
-	;
-	}
-
-	for (c = 0; src[c] != '\0';c++)
-	{
-	dest[i] = src[c];
-	i++;
-	}
-	return (dest);
-}
 int main(void)
 {
-	char s1[98] = "hello ";
-	char s2[] = "world";
-	char *ptr;
-	ptr = _strcat(s1,s2);
+	char s1[98] = "hellothere";
+	char s2[] = "sure";
+	int i, c,n;
+	c = 0;
+	n = 2;
 
-	printf("%s",ptr);
+	for (i = 0;s1[i] !='\0';i++)
+	{
+		;
+	}
+    n = i;
+	for (c = 0;c < n && s2[c] != '\0';c++)
+	 {
+	 	 i++;
+		 s1[i] = s2[c];
+		
+	}
+    printf("%s\n",s1);
+	
 
+	
 }
