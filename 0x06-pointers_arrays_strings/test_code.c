@@ -2,21 +2,17 @@
 
 int main(void)
 {
-	char s1[98] = "hellothere";
-	char s2[] = "sureghkg,fgfhgjkhgf";
-	int i,j;
-	int result;
+	int arr[] = [1,2,3,4,7];
+	int i;
+	int j;
+	int n;
+	n = 5;
 
-	for (i = 0;s1[i] != '\0'; i++)
+	for (i = n-1,j = 0; j < n ; i--,j++)
 	{
-		;
+		arr[j] = arr[i];
 	}
-	for (j = 0; s2[j] != '\0'; j++)
-	{
-		;
-	}
-	result = (i - j);
-	printf("%d",result);
+	printf("%ls",arr);
 	
   
 	
