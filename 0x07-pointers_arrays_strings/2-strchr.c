@@ -5,7 +5,7 @@
  * @c: character to locate
  * Return: NULL if character not found
  */
-char *_strchr(char *s,char c)
+char *_strchr(char *s, char c)
 {
 while (*s != '\0')
 {
